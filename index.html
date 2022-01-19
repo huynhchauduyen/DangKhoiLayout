@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HomePage</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="./img/logo.png"></a> 
+			<div id="sidebar">
+				<div class="toggle-btn" onclick ="show()">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+				<ul>
+				  <li>Home</li>
+				  <li>Work</li>
+				  <li>About</li>
+				  <li>Contact</li>
+				</ul>
+			  </div>
+			  <script>
+				function show() {
+				  document.getElementById('sidebar').classList.toggle('active');
+				}
+			  </script>
+		</div>
+	</nav>
+	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="First slide" class="d-block w-100" src="./img/slider1.png">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated bounceInRight" style="animation-delay: 1s">NHƠN HỘI - NEW CITY</h5>
+					<p class="animated bounceInLeft" style="animation-delay: 2s">Sở hữu diện tích hơn 36ha, nằm trong quy hoạch tổng thể khu du lịch đô thị, thuộc khu kinh tế nhơn hội. Định hướng phát triển không gian du lịch với việc đẩy mạnh và khai thác những danh lam, thắng cảnh nổi tiếng dọc bờ biển phía đông </p>
+					<p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Tìm hiểu thêm</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Second slide" class="d-block w-100" src="./img/slider1.png">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated slideInDown" style="animation-delay: 1s">web design</h5>
+					<p class="animated fadeInUp" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+					<p class="animated zoomIn" style="animation-delay: 3s"><a href="#">More Info</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Third slide" class="d-block w-100" src="./img/slider1.png">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated zoomIn" style="animation-delay: 1s">Digital Marketing</h5>
+					<p class="animated fadeInLeft" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+					<p class="animated zoomIn" style="animation-delay: 3s"><a href="#">More Info</a></p>
+				</div>
+			</div>
+		</div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+	<section>
+		<div class="about">
+			<div class="content-section">
+				<h2 class="section-title">Công ty bất động sản danh khoi</h2>
+				<p class="section-sub">
+					kiến tạo cộng đồng thịnh vượng</p>
+				<p class="about-text">
+					Trên hành trình hình thành và phát triển, bằng niềm đam mê, nhiệt huyết, sự tập trung và kiên định với mục tiêu đã đề ra, Danh Khôi trở thành Nhà phát triển – đầu tư uy tín với danh mục sản phẩm đa dạng bao gồm bất động sản nghỉ dưỡng, căn hộ, biệt thự, nhà phố… ở vị trí chiến lược tại Tp. Hồ Chí Minh và các tỉnh thành lân cận như Phan Thiết, Nha Trang, Long An,… 
+				</p>
+				<div class="about-cols">
+					<div class="about-avatar">
+						<img src="./img/about.png" alt="">
+					</div>
+				</div>
+				<div class="about-cols">
+					<form action="">
+						<div class="row mt-20">
+							<div class="col-ab ">
+								<div class="form-control">
+									<h2 class="title-ab">2006</h2> 
+									<p class="desc-ab">Thành lập công ty</p>
+								</div>
+			
+							</div>
+						</div>
+						<div class="row mt-20">
+							<div class="col-ab">
+								<div class="form-control">
+									<h2 class="title-ab">350</h2> 
+									<p class="desc-ab">Nhân sự</p>
+								</div>
+							
+							</div>
+						</div>
+						<div class="row mt-20">
+							<div class="col-ab">
+								<div class="form-control">
+									<h2 class="title-ab">2</h2> 
+									<p class="desc-ab">Chi nhánh và trụ sở</p>
+								</div>
+							
+							</div>
+						</div>
+						<div class="row mt-20">
+							<div class="col-ab">
+								<div class="form-control">
+									<h2 class="title-ab">7</h2> 
+									<p class="desc-ab">Công ty con</p>
+								</div>
+							
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="viewsec">
+		<div id="view">
+			<p class="section-heading">Dạo đức - uy tín - sáng tạo - chuyên nghiệp</p>
+			<div class="box-view box">
+				<div class="list-views">
+					<div class="list-items">
+						<img src="./img/tamnhin1.png" alt="" class="list-avatar">
+						<p class="list-name">Tầm nhìn</p>
+					</div>
+				</div>
+				<div class="list-views">
+					<div class="list-items">
+						<img src="./img/sumenh1.png" alt="" class="list-avatar">
+						<p class="list-name">Sứ mệnh</p>
+					</div>
+				</div>
+				<div class="list-views">
+					<div class="list-items">
+						<img src="./img/giatri1.png" alt="" class="list-avatar">
+						<p class="list-name">Giá trị cốt lõi</p>
+					</div>
+				</div>
+				<input type="button" value="Xem thêm  -->" class="btn-view">
+			</div>
+		</div>
+	
+	</section>
+	<section class="subscription">
+		<div class="grid">
+			<p class="title">LIÊN HỆ</p>
+			<div class="desc">
+				Chúng tôi luôn lắng nghe
+			</div>
+			<div class="brand-footer">
+				<img src="./img/logodo.png">
+			</div>
+				<div class="f_cols">
+					<h3>Thông tin liên hệ</h3>	
+					<p><i class="bi bi-building"></i> Công ty Cổ Phần Bất Động Sản Danh Khôi</p>	
+					<p><i class="bi bi-geo-alt"></i> Trụ sở Chính </br>Số 3, Trần Nhật Duật, Phường Tân Định,Q1,TP.HCM</p>	
+					<p><i class="bi bi-telephone-inbound"></i> 028 39677 117</p>	
+					<p><i class="bi bi-envelope"></i> cskh@danhkhoi.com.vn - tuyendung@danhkhoi.com.vn</p>
+				</div>	
+	
+				<div class="f_cols">
+						<form action="">
+							<div class="row">
+								<div class="col-half">
+									<input type="text" name="" placeholder="Họ tên" class="form-control">
+
+								</div>
+								<div class="col-half">
+									<input type="text" name="" placeholder="Số điện thoại" class="form-control">
+									
+								</div>
+							</div>
+							<div class="row mt-20">
+								<div class="col-full">
+									<input type="email" name="" placeholder="Mail" class="form-control">
+									
+								</div>
+							
+							</div>
+							<div class="row mt-20">
+								<div class="col-fully">
+									<input type="text" name="" placeholder="Nội dung" class="form-control1">
+									
+								</div>
+							</div>
+							<div class="row mt-20">
+							<input class="btnsub" type="submit" value="Gửi">
+							</div>
+						</form>
+				</div>	
+		</div>
+	
+
+	</section>
+	<footer>
+		<div id="footer">
+			<span class="desc-footer">
+				<a class="tilte-footer">Kết nối với chúng tôi: </a>
+				<i class="icon">
+					<img src="./img/icon1.png" alt="">
+					<img src="./img/icon2.png" alt="">
+					<img src="./img/icon3.png" alt="">
+					<img src="./img/icon4.png" alt="">
+					<img src="./img/icon5'.png" alt="">
+				</i>
+				<a class="copyright-footer">© Bản quyền thuộc về Công ty Cổ phần Bất Động Sản Danh Khôi.</a>
+			</span>>
+		</div>
+	</footer>
+</body>
+
+</html>
